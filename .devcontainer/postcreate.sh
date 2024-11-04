@@ -1,5 +1,5 @@
 #!/bin/bash
 
-make all
-echo "source venv/bin/activate" >> ~/.bashrc
-echo "source venv/bin/activate" >> ~/.zshrc
+#make all
+echo "PS1=\"MyTestPrompt> \"" >> ~/.bashrc
+#echo "source venv/bin/activate" >> ~/.zshrc
